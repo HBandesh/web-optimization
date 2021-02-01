@@ -1,0 +1,73 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Ubuntu";
+}
+.logo-wrapper {
+  text-align: center;
+}
+.logo {
+  width: 200px;
+}
+.nav-container {
+  background-color: rgb(243 247 249);
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: black;
+}
+.nav-item {
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  list-style-type: none;
+  background-color: rgb(243 247 249);
+  min-width: 180px;
+  left: 10px;
+  top: 58px;
+}
+.sub-nav-item {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.sub-nav-item:hover {
+  background-color: rgb(243, 243, 243);
+}
+.footer {
+  padding: 80px 40px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: rgb(243 247 249);
+  margin-top: 100px;
+}
+.footer-nav-wrapper {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav-item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 7);
+  color: black;
+  cursor: pointer;
+}
+.footer-nav-item span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-sub-nav-wrapper {
+  list-style-type: none;
+  margin-top: 30px;
+}
+.footer-sub-nav-item {
+  margin-bottom: 10px;
+}
